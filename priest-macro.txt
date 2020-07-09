@@ -1,0 +1,62 @@
+Priest Mocros
+
+#showtooltip Purify
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Purify
+
+#showtooltip Dispersion
+/use 13
+/cast Dispersion
+
+#showtooltip
+/stopcasting
+/cast [target=focus] Dispel Magic
+
+#showtooltip Prayer of Mending
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Prayer of Mending
+
+#showtooltip Heal
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Heal
+
+#showtooltip Power Word: Barrier
+/cast [nomod, @cursor] Power Word: Barrier;
+/stopspelltarget
+
+#showtooltip Mass Dispel
+/cast [nomod, @cursor] Mass Dispel;
+/stopspelltarget
+
+#showtooltip Power Word: Fortitude
+/cast Power Word: Fortitude
+/cast Honeyback Harvester
+
+#showtooltip Renew
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Renew
+
+#showtooltip Pain Suppression
+/use 14
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Pain Suppression
+
+#showtooltip Flash Heal
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Flash Heal
+
+#showtooltip Shadow Mend
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Shadow Mend
+
+
+#showtooltip [talent: 5/2] Shadow Word: Death; [talent: 5/3] Shadow Crash;
+/cast [talent: 5/2] Shadow Word: Death; [talent: 5/3] Shadow Crash;
+
+#showtooltip [talent:6/2] Mindbender; [talent:6/3] Void Torrent;
+/cast [talent:6/2] Mindbender;  [talent:6/3] Void Torrent;
+
+#showtooltip Holy Word: Sanctify
+/cast [nomod, @cursor] Holy Word: Sanctify
+/stopspelltarget
+
+#showtooltip Power Word: Shield
+/cast [target=mouseover,help,exists][target=target,help,exists][target=targettarget,help,exists][target=player] Power Word: Shield
+
+#showtooltip
+/cast [target=arena1] Mind Control
+
+/cast [target=party1] Power Word: Shield
